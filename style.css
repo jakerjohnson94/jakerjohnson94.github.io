@@ -1,0 +1,33 @@
+a{
+   text-decoration: none;
+}
+
+li,p {
+    font-size: 22px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    align-items: flex-start;
+    background-color: aliceblue;
+    
+    
+}
+
+li{
+    list-style-image: url(pin.png);
+}
+
+.lastObj{
+ /* position: absolute; */
+ padding-bottom: 5%; 
+}
+
+
+.flexCenter {
+    align-self: center;
+    padding-top: 2%;
+   
+}
