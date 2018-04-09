@@ -7,7 +7,7 @@ li,p {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     display: flex;
     flex-direction: column;
     margin-left: 2%;
