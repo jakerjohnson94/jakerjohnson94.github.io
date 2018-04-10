@@ -1,39 +1,54 @@
 a {
   text-decoration: none;
+  color: #5e4d2f;
 }
-details{
-    margin: auto;
+details {
+  margin: auto;
 }
 li,
 p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 body {
- font-family: 'Raleway', sans-serif;
+  font-family: "Hind", sans-serif;
+
   display: flex;
   flex-direction: column;
   margin-left: 2%;
   align-items: flex-start;
-  background-color:  #D0BC98;
+  background-color: #d0bc98;
 
   color: #272622;
-
-  
 }
 
-h1{
-    font-size: 32pt;
+ol {
+  margin: auto;
+  margin-bottom: 10pt;
+  margin-left: 20pt;
 }
+
+h1 {
+  font-size: 32pt;
+}
+
 strong {
   font-weight: bold;
 }
 
 summary {
   font-size: 16pt;
- 
 }
 
+.bg {
+  background: rgba(249, 236, 213, 0.15);
+  border: thin solid;
+  border-color: #d0bc99;
+  /* margin: 10pt; */
+ padding-right: 10pt;
+ padding-left: 10pt;
+  box-shadow: -7px 6px 4px #928672;
+}
 .pin {
   list-style-image: url(pin.png);
 }
